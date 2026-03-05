@@ -1,9 +1,14 @@
-# **UBER REAL-TIME DATA ENGINEERING PROJECT**
+# Uber Data Engineer Project
 
-#### **Watch The Full Project On YouTube** - https://youtu.be/5KIbhHo6GJA?si=ktBADBZbM3IqRJ2s
+This project simulates an Uber ride booking system and streams ride events to Azure Event Hub.
 
+## Tech Stack
+- FastAPI
+- Azure Event Hub
+- Faker
+- Python
+- Databricks (for processing)
+- ADLS Gen2 (for storage)
 
-![Project Architecture](https://github.com/anshlambagit/Uber_Data_Engineer_Project/blob/main/architecture.png)
-
-
-
+## Pipeline
+FastAPI → Event Hub → Databricks → ADLS
